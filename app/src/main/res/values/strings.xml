@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Netflix Layout</string>
+    <string name="drama">Drama</string>
+    <string name="inspirador">Inspirador</string>
+    <string name="assistir">Assistir</string>
+    <string name="minha_lista">Minha Lista</string>
+    <string name="filmes">Filmes</string>
+    <string name="s_ries">Séries</string>
+    <string name="doramas_coreanos">Doramas Coreanos:</string>
+    <string name="comovente">Comovente</string>
+    <string name="detalhes">DETALHES</string>
+    <string name="minha_Lista">MINHA LISTA</string>
+    <string name="j_lia_ramos">Júlia Ramos</string>
+</resources>

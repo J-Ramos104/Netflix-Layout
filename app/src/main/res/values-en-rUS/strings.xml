@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Netflix Layout</string>
+    <string name="comovente">Moving</string>
+    <string name="drama">Drama</string>
+    <string name="inspirador">Inspiring</string>
+    <string name="assistir">Watch</string>
+    <string name="minha_lista">My List</string>
+    <string name="filmes">Film</string>
+    <string name="s_ries">Series</string>
+    <string name="doramas_coreanos">Korean Dramas</string>
+    <string name="detalhes">DETAILS</string>
+    <string name="minha_Lista">MY LIST</string>
+    <string name="j_lia_ramos">Júlia Ramos</string>
+</resources>
