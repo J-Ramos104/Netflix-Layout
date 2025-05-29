@@ -14,7 +14,6 @@
         android:id="@+id/imageCapa"
         android:layout_width="0dp"
         android:layout_height="320dp"
-        android:layout_marginTop="50dp"
         android:scaleType="centerCrop"
         android:src="@drawable/test2"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,8 +27,8 @@
         android:id="@+id/imageView2"
         android:layout_width="65dp"
         android:layout_height="73dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
         android:src="@drawable/logo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageCapa" />
@@ -39,28 +38,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_end="373dp" />
+        app:layout_constraintGuide_percent="0.10" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="371dp" />
+        app:layout_constraintGuide_percent="0.90" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_end="619dp" />
+        app:layout_constraintGuide_percent="0.10" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="244dp" />
+        app:layout_constraintGuide_percent="0.25171" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -71,7 +70,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageCapa"
-        app:layout_constraintVertical_bias="0.395" />
+        app:layout_constraintVertical_bias="0.364" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -83,7 +82,7 @@
         app:layout_constraintEnd_toStartOf="@+id/imageView5"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
         app:layout_constraintTop_toBottomOf="@+id/imageCapa"
-        app:layout_constraintVertical_bias="0.215" />
+        app:layout_constraintVertical_bias="0.179" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -96,7 +95,7 @@
         app:layout_constraintEnd_toStartOf="@+id/imageView6"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toBottomOf="@+id/imageCapa"
-        app:layout_constraintVertical_bias="0.218" />
+        app:layout_constraintVertical_bias="0.179" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -109,7 +108,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/imageCapa"
-        app:layout_constraintVertical_bias="0.215" />
+        app:layout_constraintVertical_bias="0.179" />
 
     <TextView
         android:id="@+id/tv_LogoTema"
@@ -139,7 +138,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_LogoFilmes"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="@+id/imageCapa"
-        app:layout_constraintVertical_bias="0.131" />
+        app:layout_constraintVertical_bias="0.165" />
 
     <TextView
         android:id="@+id/tv_LogoFilmes"
@@ -154,7 +153,7 @@
         app:layout_constraintEnd_toStartOf="@+id/tv_LogoLista"
         app:layout_constraintStart_toEndOf="@+id/tv_LogoSeries"
         app:layout_constraintTop_toTopOf="@+id/imageCapa"
-        app:layout_constraintVertical_bias="0.131" />
+        app:layout_constraintVertical_bias="0.165" />
 
     <TextView
         android:id="@+id/tv_LogoLista"
@@ -169,7 +168,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tv_LogoFilmes"
         app:layout_constraintTop_toTopOf="@+id/imageCapa"
-        app:layout_constraintVertical_bias="0.131" />
+        app:layout_constraintVertical_bias="0.165" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_assistir"
@@ -189,7 +188,7 @@
         app:layout_constraintEnd_toStartOf="@+id/button_detalhes"
         app:layout_constraintStart_toEndOf="@+id/button_minhaLista"
         app:layout_constraintTop_toTopOf="@+id/imageCapa"
-        app:layout_constraintVertical_bias="0.97"
+        app:layout_constraintVertical_bias="0.855"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -197,39 +196,36 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        android:layout_marginBottom="108dp"
         android:text="@string/inspirador"
         android:textColor="@color/menu_navegacao"
         app:layout_constraintBottom_toBottomOf="@+id/imageCapa"
         app:layout_constraintEnd_toStartOf="@+id/tvDrama"
-        app:layout_constraintStart_toStartOf="@+id/guideline8"
-        app:layout_constraintTop_toTopOf="@+id/guideline11"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="@+id/guideline8" />
 
     <TextView
         android:id="@+id/tvDrama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
         android:text="@string/drama"
         android:textColor="@color/menu_navegacao"
         app:layout_constraintBottom_toBottomOf="@+id/imageCapa"
         app:layout_constraintEnd_toStartOf="@+id/tvComovente"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/tvInspirador"
-        app:layout_constraintTop_toTopOf="@+id/guideline11"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toEndOf="@+id/tvInspirador" />
 
     <TextView
         android:id="@+id/tvComovente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
+        android:layout_marginBottom="108dp"
         android:text="@string/comovente"
         android:textColor="@color/menu_navegacao"
         app:layout_constraintBottom_toBottomOf="@+id/imageCapa"
         app:layout_constraintEnd_toStartOf="@+id/guideline9"
-        app:layout_constraintStart_toEndOf="@+id/tvDrama"
-        app:layout_constraintTop_toTopOf="@+id/guideline11"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toEndOf="@+id/tvDrama" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_minhaLista"
@@ -247,7 +243,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
         app:layout_constraintTop_toTopOf="@+id/imageCapa"
-        app:layout_constraintVertical_bias="0.968"
+        app:layout_constraintVertical_bias="0.876"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.button.MaterialButton
@@ -265,7 +261,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline9"
         app:layout_constraintStart_toEndOf="@+id/button_assistir"
         app:layout_constraintTop_toTopOf="@+id/imageCapa"
-        app:layout_constraintVertical_bias="0.968"
+        app:layout_constraintVertical_bias="0.844"
         tools:ignore="MissingConstraints" />
 
     <TextView
